@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Heading Styling */
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+/* First Paragraph */
+.para1 {
+    color: green;
+    font-size: 18px;
+    font-family: "Courier New", monospace;
+}
+
+/* Second Paragraph */
+.para2 {
+    color: red;
+    text-align: right;
+    font-size: 22px;
+    font-style: bold;
+}
+
+/* List Styling */
+ul {
+    color: purple;
+    font-size: 20px;
+    text-align: left;
+}
