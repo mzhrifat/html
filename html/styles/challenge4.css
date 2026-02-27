@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Common section styling */
+.section {
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Section 1 - Solid Color */
+.section1 {
+    background-color: #3498db;
+}
+
+/* Section 2 - Image No Repeat */
+.section2 {
+    background-image: url("https://picsum.photos/1200/800");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 400px;
+}
+
+/* Section 3 - Repeated Image */
+.section3 {
+    background-image: url("https://picsum.photos/200/200");
+    background-repeat: repeat;
+}
+
+/* Section 4 - Centered & Cover */
+.section4 {
+    background-image: url("https://picsum.photos/1200/800?grayscale");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

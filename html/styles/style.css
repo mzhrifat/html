@@ -1,3 +1,13 @@
+.header{
+    height: 200px;
+    background-image: url('cat.jpg');
+    /* background-repeat: ;
+    background-repeat: ;*/
+    background-repeat: yaxis; 
+    background-size: cover;
+    /
+}
+
 h3{
     color:red;
     font-size: 30px;
