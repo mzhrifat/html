@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Block (default behavior shown clearly) */
+.normal-text {
+    display: block;
+    background-color: #e3f2fd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Inline */
+.inline-text {
+    display: inline;
+    background-color: #ffe082;
+}
+
+/* Inline-block */
+.inline-block-image {
+    display: inline-block;
+    border: 3px solid #4caf50;
+    margin: 10px 0;
+}
+
+/* Visibility hidden (takes space but invisible) */
+.hidden-box {
+    visibility: hidden;
+    background-color: #ff8a80;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Display none (removed completely) */
+.none-box {
+    display: none;
+    background-color: #b39ddb;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Buttons */
+.inline-btn {
+    display: inline;
+    background-color: #ff7043;
+    padding: 10px;
+}
+
+.block-btn {
+    display: block;
+    background-color: purple;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.inline-block-btn {
+    display: inline-block;
+    background-color: #66bb6a;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
