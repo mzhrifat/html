@@ -1,0 +1,192 @@
+style{
+    margin: 0px;
+    padding: 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #140028, #0c001a);
+  color: white;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #ff3edb;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.subscribe-btn {
+  background: linear-gradient(90deg, #ff3edb, #ff9a00);
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+}
+
+/* Decorative Wave */
+.wave {
+  height: 80px;
+  background: radial-gradient(circle at center, #ff3edb 2px, transparent 2px) repeat-x;
+  background-size: 20px 20px;
+  opacity: 0.2;
+  margin-bottom: 40px;
+}
+
+/* Mic Circle */
+.mic-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #00ff88;
+  color: black;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.mic-circle {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(135deg, #ff3edb, #ff9a00);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  box-shadow: 0 0 40px rgba(255, 62, 219, 0.5);
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-top: 15px;
+}
+
+.hero p {
+  color: #ccc;
+  margin: 15px 0 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.spotify {
+  background: linear-gradient(90deg, #ff3edb, #ff9a00);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.subscribe-outline {
+  background: transparent;
+  border: 1px solid #00ff88;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #00ff88;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+  padding: 60px 15%;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.about p {
+  color: #bbb;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 10%;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.stats h3 {
+  color: #00ff88;
+  font-size: 28px;
+}
+
+.stats span {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #aaa;
+  letter-spacing: 1px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
